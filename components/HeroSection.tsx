@@ -4,14 +4,14 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className="relative flex items-center justify-center min-h-screen px-4">
-      <div className="text-center max-w-3xl mx-auto">
+      <div className="text-center max-w-3xl mx-auto mt-6">
         <div className="inline-flex items-center text-white py-1 px-4 rounded-full text-sm font-medium border-2 border-[#98D422] mb-10">
           🚀 <p className="text-[#98D422]">Intent v0.1.35 released</p>{" "}
           <span className="ml-2">
             <MoveRight className="text-[#98D422]" />
           </span>
         </div>
-        <div className="mt-5">
+        <div className="">
         <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-tight text-bgcolor dark:text-darkfont font-extrabold leading-tight mb-4">
           It's like Laravel, <br />
           <span className="text-[#98D422] text-4xl md:text-5xl lg:text-6xl tracking-tight text-main font-extrabold">
@@ -40,7 +40,7 @@ const Hero = () => {
             Star on Github
           </Link>
         </div>
-        <div className="mt-12">
+        <div className="mt-6">
             <p> <span className="text-center text-[#98D422]"> Book a call </span> to see how Intent can help you !  </p>
         </div>
       </div>
