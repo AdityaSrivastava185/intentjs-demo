@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer className="rounded-lg shadow m-4 bg-zinc-900">
+      <footer className="rounded-lg shadow m-4 bg-zinc-900 p-10">
         <div className="w-full text-center mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <div className="flex gap-6 items-center justify-center mb-4 md:mb-0 mt-5">
             <div className="bg-white inline-flex rounded-full p-1 hover:bg-[#98D422] hover:text-white">

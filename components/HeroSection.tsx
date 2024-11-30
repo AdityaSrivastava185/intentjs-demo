@@ -12,7 +12,7 @@ const Hero = () => {
           </span>
         </div>
         <div className="">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-tight text-bgcolor dark:text-darkfont font-extrabold leading-tight mb-4">
+        <h1 className="font-urbanist text-5xl md:text-5xl lg:text-6xl tracking-tight text-bgcolor dark:text-darkfont font-extrabold leading-tight mb-4">
           It's like Laravel, <br />
           <span className="text-[#98D422] text-4xl md:text-5xl lg:text-6xl tracking-tight text-main font-extrabold">
             but for NodeJS
